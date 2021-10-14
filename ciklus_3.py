@@ -10,3 +10,14 @@
 #         print(str(k) + ".:", i)
 #     k=k+1
 
+szoveg  = " HELLO VILAG"
+i = len(szoveg)
+k = 0
+while k < i:
+    print(szoveg[k])
+    k += 1
+
+##########################################
+
+for c in szoveg:
+    print(c)
