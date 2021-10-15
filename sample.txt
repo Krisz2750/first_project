@@ -1,0 +1,8 @@
+23.7.  Pakli keverésHa a pakli tökéletesen össze van keverve, akkor bármelyik kártya egyenl 
+̋o valószín  ̋uséggel t  ̋unhet fel bárhol a pakliban,és a paklin belüli bármelyik helyzetben ugyanolyan valószín  ̋uséggel fordulhat el ̋o bármelyik kártya.A pakli 
+megkeveréséhez arandommodulrandrangefüggvényét f
+ogjuk használni. Arandrangeazaésbegészparaméterekkel használva kiválaszt egy véletlen egész számot aza <= x < 
+bintervallumból. Mivel az intervallumfels ̋o korlátja szigorúan kisebb, 
+mintb, a második paraméterként a lista hosszát kell használnunk, 
+ezzel garantálhatjuk,hogy legális indexet kapjunk.  Például,  ha azrngegy véletlenszám forrást testesít meg,  akkor az alábbi 
+kifejezésválasztja ki egy random kártya indexét a pakliban:
